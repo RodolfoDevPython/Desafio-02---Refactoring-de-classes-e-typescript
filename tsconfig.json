@@ -1,19 +1,29 @@
 {
-    "compilerOptions": {
-      "target": "esnext" /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */,
-      "module": "commonjs" /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */,
-      "lib": [
-        "esnext",
-        "dom"
-      ] /* Specify library files to be included in the compilation. */,
-      "jsx": "react-jsx" /* Specify JSX code generation: 'preserve', 'react-native', or 'react'. */,
-      "sourceMap": true /* Generates corresponding '.map' file. */,
-      "strict": true /* Enable all strict type-checking options. */,
-      "noImplicitAny": true /* Raise error on expressions and declarations with an implied 'any' type. */,
-      "strictNullChecks": true /* Enable strict null checks. */,
-      "skipLibCheck": true /** Skip type checking of all declaration files (*.d.ts). */,
-      "importsNotUsedAsValues": "error",
-      "esModuleInterop": true /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */,
-      "resolveJsonModule": true /* Allows for importing, extracting types from and generating .json files*/
-    }
-  }
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "jsx": "react-jsx",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "importsNotUsedAsValues": "error",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "src"
+  ]
+}
